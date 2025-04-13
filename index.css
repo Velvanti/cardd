@@ -1,24 +1,21 @@
 body{
+    
     background-image: url("images/room.jpeg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     margin: 0;
     min-width: 1368px;
-    min-height: 1151px;
+    
 }
 main {
     background-color: rgba(255, 255, 255, 0.774);
     background-image: url(images/polka.jpg);
-    min-height: 90vh;
-    min-width: 90%;
-    width: 70vw;
+    height: 90%;
+    width: 90%;
     margin: 0 auto;
     border: 4px solid #559fed;
     border-radius: 10px;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
     
 }
 .header {
@@ -61,8 +58,7 @@ main {
 
 /*message box stuff*/
 
-.messageBox {
-    height: 60vh;
+.messageBox { 
     width: 85%;
     margin: 0px auto;
     background-color: white;
